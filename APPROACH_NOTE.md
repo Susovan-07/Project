@@ -149,8 +149,8 @@ Why Agglomerative over K-Means:
 
 Metric | BM25 | TF-IDF | Fuzzy
 -------|------|--------|------
-Avg score | 0.779 | 0.472 | N/A (sample)
-Matches found | 8,502 | 8,120 | 173 (sample only)
+Avg score | 0.7566 | 0.472 | N/A (sample)
+Matches found | 8,547 | 8,120 | 173 (sample only)
 Handles length variation | Yes (b param) | No | Partially
 Semantic understanding | No | No | No
 Multilingual | Yes (token level) | Yes (char n-gram) | Yes
@@ -198,7 +198,7 @@ For 100K+ posts:
 
 - **Total records loaded:** 1,812 (across 16 sheets)
 - **After deduplication:** 1,774 unique posts
-- **Similarity matches found:** 8,129 pairs (threshold ≥ 0.15)
+- **Similarity matches found:** 8,547 pairs
 - **Clusters formed:** 177 (avg. ~10 posts/cluster)
-- **Average BM25 similarity score:** 0.3387
+- **Average BM25 similarity score:** 0.7566
 - **Max BM25 similarity score:** 1.00 (near-identical posts)
