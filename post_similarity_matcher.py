@@ -502,7 +502,7 @@ def cluster_posts(df, embeddings) -> pd.DataFrame:
 
 
 
-# CLUSTER TITLE GENERATION — LLM (Claude API) or KEYWORD FALLBACK
+# CLUSTER TITLE GENERATION — LLM or KEYWORD FALLBACK
 
 
 def _call_claude_api(prompt: str, api_key: str, model: str) -> str:
